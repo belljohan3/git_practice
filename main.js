@@ -1,4 +1,4 @@
-function test () {
+function mixedMessage () {
 
     // words to be choosed randomly
         const qualities = ['handsome', 'lazy', 'crazy', 'smart'];
@@ -16,4 +16,4 @@ function test () {
     
     return console.log(result.join(' '));
 };
- test();
+ mixedMessage();
