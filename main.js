@@ -14,6 +14,7 @@ function mixedMessage () {
     let result = [];
     let randomSentence = result.push(`If you are ${randomWordqualities}, that also means you can be a ${randomWordjob}. But to do that, you need to ${randomWordneed} when you are free`);
     
+	// Return result of the whole function
     return console.log(result.join(' '));
 };
  mixedMessage();
